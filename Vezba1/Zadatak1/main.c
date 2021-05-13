@@ -11,8 +11,14 @@ int main()
 	else
 		c = b - a;
 		
-	printf("Result: %d\n", c);
+	
+	PrintResult(c);
 
 	return 0;
 	
+}
+
+void PrintResult (int res)
+{
+	printf("Result: %d\n", res);
 }
