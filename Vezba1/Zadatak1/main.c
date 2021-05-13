@@ -2,17 +2,16 @@
 
 int main()
 {
-	int a = 3;
-	int b = 8;
-	int c;
-	
-	if(a > b)
-		c = a - b;
-	else
-		c = b - a;
-		
-	printf("Result: %d\n", c);
+	Calculation(3, 8);
 
 	return 0;
 	
+}
+
+int Calculation (int a, int b)
+{
+	if (a > b)
+		return a - b;
+	else
+		return b - a;
 }
